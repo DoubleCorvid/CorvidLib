@@ -1,7 +1,7 @@
 using TenCrowns.GameCore;
 
-namespace DoubleCorvid.OldWorld.CorvidLib.Factories;
-
-public interface ICharacterFactory {
-	Character CreateCharacter ();
+namespace DoubleCorvid.OldWorld.CorvidLib.Factories {
+	public interface ICharacterFactory {
+		Character CreateCharacter ();
+	}
 }

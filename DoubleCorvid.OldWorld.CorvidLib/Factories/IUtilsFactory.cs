@@ -1,7 +1,7 @@
 using TenCrowns.GameCore;
 
-namespace DoubleCorvid.OldWorld.CorvidLib.Factories;
-
-public interface IUtilsFactory {
-	Utils CreateUtils ();
+namespace DoubleCorvid.OldWorld.CorvidLib.Factories {
+	public interface IUtilsFactory {
+		Utils CreateUtils ();
+	}	
 }

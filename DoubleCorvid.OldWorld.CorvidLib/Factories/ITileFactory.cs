@@ -1,7 +1,7 @@
 using TenCrowns.GameCore;
 
-namespace DoubleCorvid.OldWorld.CorvidLib.Factories;
-
-public interface ITileFactory {
-	Tile CreateTile ();
+namespace DoubleCorvid.OldWorld.CorvidLib.Factories {
+	public interface ITileFactory {
+		Tile CreateTile ();
+	}	
 }

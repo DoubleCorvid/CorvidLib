@@ -1,7 +1,7 @@
 using TenCrowns.GameCore;
 
-namespace DoubleCorvid.OldWorld.CorvidLib.Factories;
-
-public interface ICityFactory {
-	City CreateCity ();
+namespace DoubleCorvid.OldWorld.CorvidLib.Factories {
+	public interface ICityFactory {
+		City CreateCity ();
+	}	
 }

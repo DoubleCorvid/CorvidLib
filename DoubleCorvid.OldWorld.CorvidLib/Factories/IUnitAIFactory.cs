@@ -1,7 +1,7 @@
 using TenCrowns.GameCore;
 
-namespace DoubleCorvid.OldWorld.CorvidLib.Factories;
-
-public interface IUnitAIFactory {
-	Unit.UnitAI CreateUnitAI ();
+namespace DoubleCorvid.OldWorld.CorvidLib.Factories {
+	public interface IUnitAIFactory {
+		Unit.UnitAI CreateUnitAI ();
+	}	
 }

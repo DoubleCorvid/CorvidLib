@@ -1,7 +1,7 @@
 using TenCrowns.GameCore;
 
-namespace DoubleCorvid.OldWorld.CorvidLib.Factories;
-
-public interface IPlayerFactory {
-	Player CreatePlayer ();
+namespace DoubleCorvid.OldWorld.CorvidLib.Factories {
+	public interface IPlayerFactory {
+		Player CreatePlayer ();
+	}	
 }
