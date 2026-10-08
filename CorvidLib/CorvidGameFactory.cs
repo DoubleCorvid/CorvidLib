@@ -1,4 +1,4 @@
-using CorvidLib.Factories;
+using CorvidLib.Components;
 
 using TenCrowns.ClientCore;
 using TenCrowns.GameCore;
@@ -6,10 +6,10 @@ using TenCrowns.GameCore.Text;
 
 namespace CorvidLib {
 	public class CorvidGameFactory : GameFactory {
-		public readonly CorvidFactoryComponentManager ComponentManager;
+		public readonly ComponentManager ComponentManager;
 
 		public CorvidGameFactory (GameFactory originalGameFactory) {
-			ComponentManager = new CorvidFactoryComponentManager (originalGameFactory);
+			ComponentManager = new ComponentManager (originalGameFactory);
 		}
 
 		public override Infos CreateInfos (ModSettings modSettings) {
